@@ -586,6 +586,54 @@ header {
   }
 }
 
+// Sección de bibliografía/enlaces 
+
+.bibliografia {
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.bibliografia ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bibliografia li {
+  margin-bottom: 20px; 
+}
+
+.bibliografia p {
+  border-left: 1px solid grey;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+
+.bibliografia a {
+  text-decoration: none;
+  color: #333; 
+  font-style: italic;
+}
+
+.bib_titulo {
+  text-decoration: underline orange !important; 
+  font-weight: bold !important;
+  font-style:normal !important;
+}
+
+.bib_titulo:hover {
+  text-decoration: underline #333 !important;
+}
+
+.bibliografia a:hover {
+  color: #555; 
+}
+
+.bibliografia p {
+  margin-top: 5px; 
+  color: #666; 
+}
 
 
 
