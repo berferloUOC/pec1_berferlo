@@ -9,8 +9,7 @@
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
-    "clean": "rimraf dist .parce-cache",
-    "install": "npm install"
+    "clean": "rimraf dist .parce-cache"
   },
   "keywords": [],
   "author": "",
