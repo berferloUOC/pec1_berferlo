@@ -38,7 +38,7 @@
             <button class="toggle-btn" onclick="toggleSection('discografia-seccion')">Mostrar más</button>
         </section>
         
-        <section id="noticias-seccion" class="noticias-seccion">
+        <section id="noticias-seccion" class="noticias-seccion lazy">
             <div class="contenedor-icono-animado">
                 <img src="img/logo.svg" class="icono">
             </div>
@@ -51,27 +51,27 @@
             <button class="toggle-btn" onclick="toggleSection('noticias-seccion')">Mostrar más</button>
         </section>
     
-        <section class="multimedia-seccion">
+        <section class="multimedia-seccion lazy">
             <div class="contenedor-icono-animado">
                 <img src="img/logo.svg" class="icono">
             </div>
             <h2 class="multimedia-titulo">MULTIMEDIA</h2>
             <div class="portadas-container">
                 <div class="fila">
-                    <a href="https://open.spotify.com/intl-es/album/2pKw6GERJVAD61449B1EEM?autoplay=true" target="_blank"><img src="img/hybrid_theory.jpg" alt="Portada Hybrid Theory" class="portada_disco"></a>
-                    <a href="https://open.spotify.com/intl-es/album/4Gfnly5CzMJQqkUFfoHaP3?autoplay=true" target="_blank"><img src="img/meteora.jpg" alt="Portada Meteora" class="portada_disco"></a>
-                    <a href="https://open.spotify.com/intl-es/album/4JtIVJRA342O0YoAchen5Q?autoplay=true" target="_blank"><img src="img/minutes_to_midnight.jpg" alt="Portada Minutes to Midnight" class="portada_disco"></a>
-                    <a href="https://open.spotify.com/intl-es/album/113yjuFZEqkkbuLi4sEBxo?autoplay=true" target="_blank"><img src="img/a_thousand_suns.jpg" alt="Portada A Thousand Suns" class="portada_disco"></a>
+                    <a href="https://open.spotify.com/intl-es/album/2pKw6GERJVAD61449B1EEM?autoplay=true" target="_blank"><img src="img/hybrid_theory.jpg" alt="Portada Hybrid Theory" class="portada_disco" loading="lazy"></a>
+                    <a href="https://open.spotify.com/intl-es/album/4Gfnly5CzMJQqkUFfoHaP3?autoplay=true" target="_blank"><img src="img/meteora.jpg" alt="Portada Meteora" class="portada_disco" loading="lazy"></a>
+                    <a href="https://open.spotify.com/intl-es/album/4JtIVJRA342O0YoAchen5Q?autoplay=true" target="_blank"><img src="img/minutes_to_midnight.jpg" alt="Portada Minutes to Midnight" class="portada_disco" loading="lazy"></a>
+                    <a href="https://open.spotify.com/intl-es/album/113yjuFZEqkkbuLi4sEBxo?autoplay=true" target="_blank"><img src="img/a_thousand_suns.jpg" alt="Portada A Thousand Suns" class="portada_disco" loading="lazy"></a>
                 </div>
                 <div class="fila">
-                    <a href="https://open.spotify.com/intl-es/album/4XHIjbhjRmqWlosjj5rqSI?autoplay=true" target="_blank"><img src="img/living_things.jpg" alt="Portada Living Things" class="portada_disco"></a>
-                    <a href="https://open.spotify.com/intl-es/album/1GIFxC338G7O7Wx2P5IaJv?autoplay=true" target="_blank"><img src="img/the_hunting_party.jpg" alt="Portada The Hunting Party" class="portada_disco"></a>
-                    <a href="https://open.spotify.com/intl-es/album/5Eevxp2BCbWq25ZdiXRwYd?autoplay=true" target="_blank"><img src="img/one_more_light.jpg" alt="Portada One More Light" class="portada_disco"></a>
+                    <a href="https://open.spotify.com/intl-es/album/4XHIjbhjRmqWlosjj5rqSI?autoplay=true" target="_blank"><img src="img/living_things.jpg" alt="Portada Living Things" class="portada_disco" loading="lazy"></a>
+                    <a href="https://open.spotify.com/intl-es/album/1GIFxC338G7O7Wx2P5IaJv?autoplay=true" target="_blank"><img src="img/the_hunting_party.jpg" alt="Portada The Hunting Party" class="portada_disco" loading="lazy"></a>
+                    <a href="https://open.spotify.com/intl-es/album/5Eevxp2BCbWq25ZdiXRwYd?autoplay=true" target="_blank"><img src="img/one_more_light.jpg" alt="Portada One More Light" class="portada_disco" loading="lazy"></a>
                 </div>
             </div>
         </section>
     </main>
     <include src="footer.html"></include>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </body>
 </html>
