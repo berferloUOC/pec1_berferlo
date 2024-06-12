@@ -1,3 +1,4 @@
 [ZoneTransfer]
 ZoneId=3
-HostUrl=https://upload.wikimedia.org/wikipedia/commons/7/74/Linkin_Park_2017_logo_after_Bennington%27s_death.svg
+ReferrerUrl=https://www.iloveimg.com/
+HostUrl=https://api8.iloveimg.com/v1/download/9jqx32mrfdc1t31zz5y1sfk3s2d65jcqqd6q0grdflgb1sn9504tncAdvr0cjAzzlfn22hl9xxAcyx2ymkx57qmx9m936pbgqy7d8ckmnyvxjAh8tdpn95pn9rygc46xs8q2n5sz77n1lbhkdlm9tp4p46szzrsnArl1bqb1vn4r56nky5vq
